@@ -1,0 +1,3 @@
+# MetaGo
+
+TODO: docs

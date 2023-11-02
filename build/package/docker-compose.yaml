@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  meta:
+    build:
+      context: ../../
+      dockerfile: ./build/package/docker/Dockerfile
+    container_name: stalkerx
+    hostname: stalkerx
+    restart: always
+    ports:
+      - 2000:80
